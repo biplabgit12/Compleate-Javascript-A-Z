@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    color: rgb(20, 209, 20);
+    background-image:url("download\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    
+}
+
+#text{
+  background-color: #000000e8;
+  font-family: sans-serif;  
+  height: 100%;
+  text-align: center;
+}

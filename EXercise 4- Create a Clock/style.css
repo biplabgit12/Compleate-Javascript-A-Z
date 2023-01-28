@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.container{
+   background-color:rgba(30, 28, 28, 0.95);
+   color: cyan;
+   /* background-color:rgb(16, 120, 152);
+   color: white; */
+   /* color: #ff00b3; */
+   min-width: 240px;
+   padding: 60px 36px;
+   border-radius: 24px; 
+}
+
+#timeStore{
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
