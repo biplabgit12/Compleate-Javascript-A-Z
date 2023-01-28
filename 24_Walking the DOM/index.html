@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walking the DOM</title>
+    <!-- <script>
+        console.log(document.body);    //return the null value because script tag include before body tag
+    </script> -->
+</head>
+<body>
+   
+   
+    
+    <script>
+        console.log(document.body, typeof document.body);  //element node object return korbe
+        console.log(document.head, typeof document.head);   //element node object return korbe
+        console.log("title is => " + document.title);  //text node string return korbe
+        console.log("title type is a " + typeof document.title);
+        console.log("root/parent node is ",  document.documentElement);
+        console.log("root/parent node type is ",  typeof document.documentElement);
+        
+    </script>
+</body>
+</html>

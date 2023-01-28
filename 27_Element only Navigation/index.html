@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element only Navigation</title>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <h2>Element Navigation by Javascript</h2>
+
+    <script>
+        let a = document.body;
+        console.log(a);
+        console.log("first child of a is ", a.firstChild);
+        console.log("first Element child of a is ", a.firstElementChild);
+        console.log("last child of a is ", a.lastChild);
+        console.log("last Element child of a is ", a.lastElementChild);
+
+        console.log("previous Sibling is ", a.previousSibling);
+        console.log("previous Element Sibling is ", a.previousElementSibling);
+
+        console.log("ChildNodes is ", a.childNodes);
+        console.log("child Element nodes is ", a.children);
+
+        //   let nav = document.getElementsByTagName(nav)[0];
+          let nav = document.getElementById("nav");
+          let ul = nav.firstElementChild;
+          let li = nav.firstElementChild.children[0];
+          
+        let changeNav = ()=>{
+            document.body.style.margin = "0px";
+            document.body.style.padding = "0px";
+            ul.style.margin = "0px";
+            nav.style.backgroundColor = "yellow";
+            ul.style.listStyle = "none";
+            ul.style.display = "flex";
+            ul.style.textAlign = "center";
+            ul.style.padding = "24px";
+            li.style.padding = "0px 14px";
+          }
+
+          changeNav();
+    </script>
+</body>
+</html>

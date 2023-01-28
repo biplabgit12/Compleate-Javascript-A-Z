@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for-in loop in javascript</title>
+</head>
+<body>
+    <h2>javascript for-in loop</h2>
+
+
+    <script>
+        // for-in loop
+        //   javascript "for in" loops through the properties of an object 
+
+        // syntax:
+        /* for(key in obj){
+            //code to executed
+
+         }  */
+        
+
+
+        //  Example: 
+       /*  const person = {
+            name: "biplab",
+            age: 18,
+            learn: "javascript"
+         }
+
+         for(let a in person){
+            console.log(person[a]);
+         }  
+      */
+      
+
+
+         //"For in" loop over Arrays
+          //   javascript "for in" loops through the properties of an array
+         
+            // syntax: 
+           /* for(variable in array){
+                // Executed code 
+            }  */
+
+
+         /* let fruits = ['mango',"orange","apple","banana"];
+            
+           for(let key in fruits){
+              console.log(fruits[key]);
+           }  */
+
+
+
+           
+        //    Array.forEach()
+        // The forEach method calls a function(a callback function) once for each array elment. 
+
+        // syntax:
+        /*  array.forEach(function (value,index,array) {
+            //Executed code  
+          });   */
+
+
+          const numbers = [2,3,4,7,8,6];
+
+          numbers.forEach(function(element,index,array){
+            console.log(element,index,array);
+          });
+
+         
+    </script>
+</body>
+</html>

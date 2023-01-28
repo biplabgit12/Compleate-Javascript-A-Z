@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to String</title>
+</head>
+<body>
+    <h2>Introduction to string</h2>
+
+
+    <script>
+        // Strings are used to store and manupulate text. Strings can be created using the following syntax:
+
+      /*  let name = "Biplab";
+         console.log(name);
+         console.log(name.length);
+       */ 
+
+
+         //String can also be created using single quotes 
+       /*  let name = 'Biplab';
+         console.log(name); 
+       */
+
+
+       // Template Literals
+        //Template literals use backtics instead of quotes to define a strings
+       /* let name = `Biplab`;
+         console.log(name); 
+       */
+
+
+         // With template literals, It is posible to use both single as well as double quotes inside a strings
+
+         let sentence = `My "name" is 'biplab'`;
+            console.log(sentence);
+
+
+            // We can insert variables directly in Tempalte literals. This is called string interpolation
+            let Dada = "Sujay";
+             let insertVari = `My younger brothers name is ${Dada}`;
+             console.log(insertVari);
+
+
+             //Escape Sequence Characters
+            /* let name = ''Mr' biplab';  // do not this 
+               console.log(name);  
+            */
+
+
+            //We can use single quote escape sequence to solve the problem
+              let name = 'Mr\' biplab';   
+               name = '\'Mr\' biplab';   
+               name = 'Mr\n biplab';   
+               name = 'Mr\t biplab';   
+               name = 'Mr\r biplab';   
+               console.log(name);  
+
+
+            //  Other escape sequence characters are as followers
+        /*   \n = new line 
+             \t = Tab
+             \r = carriage return
+
+        */
+    </script>
+</body>
+</html>

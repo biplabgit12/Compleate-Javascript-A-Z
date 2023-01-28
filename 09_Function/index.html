@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+</head>
+<body>
+    <h2>JavaScript Functions</h2>
+     <p>A JavaScript function is a block of code designed to perform a particular task.
+    </p>
+    <p>A JavaScript function is executed when "something" invokes it (calls it).</p>
+
+
+
+    <script>
+        // syntax: 
+        /* function name(parameter){
+            //Executed code
+         }  */
+
+
+         //function without parameter
+       /*  function add(){
+            console.log(3+6);
+         }
+         
+         add();  // invokes(calls)
+      */
+
+
+
+         //function with parameter
+         function add(x,y,z){
+            let result = (x+y)*z;
+            return result;
+         }
+
+         let a = 4;
+         let b = 8;
+         let c = 2;
+         
+        let ans =  add(a,b,c);
+         console.log(ans); 
+       
+    </script>
+</body>
+</html>

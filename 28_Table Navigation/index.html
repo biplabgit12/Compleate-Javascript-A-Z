@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Navigation</title>
+</head>
+
+<body>
+    <h2>Table Navigation in javascript</h2>
+
+    <table class="table" id="table">
+        <caption>Beautiful Table</caption>
+        <thead id="thead">
+            <tr id="tr">
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Learn</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <th class="row">1</th>
+                <td>Biplab</td>
+                <td>18</td>
+                <td>Javascript</td>
+            </tr>
+            <tr>
+                <th class="row">2</th>
+                <td>Kaushik</td>
+                <td>14</td>
+                <td>Html</td>
+            </tr>
+            <tr>
+                <th class="row">3</th>
+                <td>Sujay</td>
+                <td>21</td>
+                <td>Css</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script>
+        let table = document.getElementById("table");
+        let tbody = document.getElementById("tbody");
+        let tr = document.getElementById("tr");
+
+            console.log(table.rows);
+            console.log(table.caption);
+            console.log(table.tHead);
+            console.log(table.tBodies);
+            console.log(tr.cells);
+            console.log(tr.sectionRowIndex);
+            console.log(tr.rowIndex);
+            console.log(tr.cellIndex);
+
+            console.log(typeof document);
+            console.log(typeof window);
+    </script>
+</body>
+
+</html>

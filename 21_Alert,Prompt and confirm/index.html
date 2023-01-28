@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript alert, prompt and confirm</title>
+</head>
+<body>
+    <h2>Javascript alert, prompt and confirm</h2>
+
+
+    <script>
+       alert("Enter your number");
+       let a = prompt("Enter here", 420);
+           a = Number.parseInt(a); 
+         
+        alert("You entered a type " + (typeof a));
+        let write = confirm("Do you want to write it to the page");
+            if(write){
+                document.write(a);
+            }
+            else{
+                document.write("Don't Print");
+            }
+    </script>
+</body>
+</html>

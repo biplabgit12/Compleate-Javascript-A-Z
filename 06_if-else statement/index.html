@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript if-else statement</title>
+</head>
+<body>
+    <h2>Javascript if-else statement</h2>
+
+
+    <script>
+        let a = prompt("Hey whats your age?");
+         a = Number.parseInt(a);
+
+        console.log(a);
+        console.log(typeof a);
+
+        // if lader 
+        // if (a>12) {
+        //     alert('you can drive');
+        // }
+
+
+        // if-else lader 
+        // if (a>12) {
+        //     alert('you can drive');
+        // }
+        // else{
+        //     alert('you can not drive'); 
+        // }
+
+
+        // else if lader 
+        if (a>12) {
+            alert('you can drive');
+        }
+        else if(a<12){
+            alert('you can not drive'); 
+        }
+        else{
+            alert('if age is 18 then you can drive'); 
+        }
+
+
+
+        // Switch statement 
+        let mango;
+        switch ('mango') {
+            case 'orange':
+               alert('Right answer 1'); 
+                break;
+
+            case 'apple':
+               alert('Right answer 2'); 
+                break;
+
+            case 'mango':
+               alert('Right answer 3'); 
+                break;
+        
+            default:
+              alert('default Right answer'); 
+                break;
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <h2>Javscript array methods</h2>
+
+
+    <script>
+        let arr = [23,45,67,87,54];
+            console.log(arr, typeof arr);
+            let a = arr.toString();  // Convert an array to a string of a comma separated values
+            console.log(a, typeof a);
+
+            let b = arr.join(" and ");
+                console.log(b, typeof b);
+
+            let c = arr.pop();
+                console.log(arr, typeof arr);
+                console.log(c, typeof c);
+
+            let d = arr.push("PushValue");
+                console.log(d, typeof d);
+
+
+            let e = arr.shift();   //Remove an elment from the start of the array
+                console.log(e, typeof e);
+                console.log(arr, typeof arr);
+
+            let f = arr.unshift("unshiftValue");  //Add an elment from the start of the array
+                console.log(f, typeof f);
+                console.log(arr, typeof arr);
+
+
+    </script>
+</body>
+</html>

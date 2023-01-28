@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type in Javascript</title>
+</head>
+<body>
+    <h2>Javascript Data Type</h2>
+
+   <script>
+     /* 2 types of data type :- 
+          a = primitive data type 
+          b = non-primitive data type  
+     */  
+
+    //  primitive data type -  nn bb ss u 
+    //  7 types of primitive data type
+    let a = null;
+    let b = 10;
+    let c = true;
+    let d = BigInt(234);
+    let e = 'biplab';
+    let f = Symbol('This is symbol');
+    let g = undefined;
+    // let g = ;
+    console.log(a,b,c,d,e,f,g);
+    console.log(typeof b);
+
+
+    //  Non-primitive data type -  Objects
+        const Exam = {
+            "biplab": null,
+            "kaushik": 45,
+            "Ripon": undefined
+        } 
+
+        console.log(Exam["biplab"]);
+        console.log(Exam["kaushik"]);
+
+   </script>
+</body>
+</html>

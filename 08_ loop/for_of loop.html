@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for-of loop in javascript</title>
+</head>
+<body>
+    <h2>javascript for-of loop</h2>
+
+  <p id="demo"></p>
+    <script>
+        // for-of loop
+        // The JavaScript for of statement loops through the values of an iterable object.
+      // It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+
+
+    //  syntax: 
+    /*  for (const variable of itarble) {
+        // Executed code
+      }   */
+     //iterable - An object that has iterable properties.
+
+
+    //  Looping over an Array
+     let name = ["biplab","kaushik","ripon","sujay","shiba"];
+        let nameDesc = "";
+      for(let n of name){
+         nameDesc += "Programmer name is " + n + "<br>";     
+        //  console.log(nameDesc += "Programmer name is " + n + "<br>");     
+                    
+      }
+
+      document.getElementById("demo").innerHTML = nameDesc; 
+
+
+
+      // Looping over a String
+       let language = "Javascript";
+       for(let a of language){
+         console.log(a);
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Console object</title>
+</head>
+<body>
+    <h2>Javascript Console object</h2>
+
+
+    <script>
+        console.log(console);
+
+        let obj = {
+          name: "Biplab",
+          age:18,
+          roll:0213
+      };
+
+// console.table(obj);
+
+
+  console.time("for loop");
+   for(let i=0; i<12; i++){
+     console.log(500);
+   }
+
+   console.timeEnd("for loop");
+
+
+  console.time("while loop");
+    let i = 0;
+   while(i<12){
+    console.log(500);
+    i++;
+   }
+
+   console.timeEnd("while loop");
+    </script>
+</body>
+</html>

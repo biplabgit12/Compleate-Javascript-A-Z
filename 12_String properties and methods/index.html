@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String properties and methods</title>
+</head>
+<body>
+    <h2>Javascript string properties and methods</h2>
+
+
+    <script>
+        // String property:
+        //   1. length
+      /*  let name = "biplab";
+            console.log(name.length);
+       */ 
+        
+
+       // String methods
+        let name = "Biplab";
+            console.log(name.toUpperCase());
+            console.log(name.toLowerCase());
+            console.log(name.slice(2, 5));
+            console.log(name.slice(2));
+            console.log(name.replace("Biplab", "Kaushik"));
+
+        let name1 = "Biplab";
+         
+        let name2 = "Kaushik";
+            console.log(name1.concat(" elder brother is ", name2));
+
+        let Dada = "     Sujay     ";
+            console.log(Dada);
+            console.log(Dada.trim());
+
+
+            // Strings are immutable Inorder to access the character at an index we use the following Syntax
+             let brother = "Kaushik";
+                // console.log(brother[0]);
+                // console.log(brother[1]);
+                // console.log(brother[2]);
+                // console.log(brother[3]);
+                // console.log(brother[4]);
+                // console.log(brother[5]);
+                // console.log(brother[6]);
+
+
+    //  Quiz: 
+      let name3 = "Ripon";
+        //   console.log(name3[0]);
+        //   console.log(name3[1]);
+        //   console.log(name3[2]);
+        //   console.log(name3[3]);
+        //   console.log(name3[4]);
+       for(let i = 0; i < name3.length; i++){
+          console.log(name3[i]);
+       }         
+    </script>
+</body>
+</html>

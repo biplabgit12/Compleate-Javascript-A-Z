@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript chapter-6 practice-set</title>
+</head>
+<body>
+    <h2>Javascript chapter-6 practice-set</h2>
+
+
+    <script>
+    // Q1: 
+     /*   let age = prompt("Type your age");
+            age = Number.parseInt(age);
+
+        let canDrive = (age)=>{
+           return (age >= 18)? true:false;
+        }
+
+         if(canDrive(age)){
+            alert("You can drive");
+         }
+         else{
+            alert("You can't drive");
+         }
+      */  
+
+
+    //  Q2: 
+    /*    const canDrive = (age)=>{
+           return (age >= 18)? true:false;
+        }
+
+    let runAgain = true; 
+
+      while(runAgain){  
+        let age = prompt("Type your age");
+            age = Number.parseInt(age);
+            
+         if(canDrive(age)){
+            alert("You can drive");
+         }
+         else{
+            alert("You can't drive");
+         }
+         runAgain = confirm("Do You want to play again?");  
+      }
+    */
+
+
+    // Q3: 
+    /*   const canDrive = (age)=>{
+           return (age >= 18)? true:false;
+        } 
+
+      let runAgain = true; 
+    
+       while(runAgain){  
+         let age = prompt("Type your age");
+             age = Number.parseInt(age);
+            
+         if(age<0){ 
+            console.error("your age is Wrong");
+            break;
+         }
+
+         if(canDrive(age)){
+            alert("You can drive");
+         }
+         else{
+            alert("You can't drive");
+         }
+         runAgain = confirm("Do You want to play again?");
+      }
+    */
+
+
+// Q4: 
+/* let num = prompt("Type your number");
+    num = Number.parseInt(num);
+
+  if(num>4){
+    location.href = "https://google.com";
+  }
+  else{
+    alert("your number is less than 4");
+  }
+*/
+
+
+// Q5: 
+ let color = prompt("Enter the background color");
+
+ document.body.style.backgroundColor = color;
+</script>
+</body>
+</html>

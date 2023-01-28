@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Arrays</title>
+</head>
+<body>
+    <h2>Javascript Introduction to Arrays</h2>
+
+     <div id="quiz"></div>
+
+    <script>
+        //Arrays are variables which can hold more than one value.
+         let class_12_marks = [91,87,78,73,null,"Not present"];
+            console.log(class_12_marks.length);
+            console.log(class_12_marks[0]);
+            console.log(class_12_marks[1]);
+            console.log(class_12_marks[2]);
+            console.log(class_12_marks[3]);
+            console.log(class_12_marks[4]);
+            console.log(class_12_marks[5]);
+            console.log(class_12_marks[6]);   // will be undefined because index 6 does not exist
+            class_12_marks[7] = 88;  // Adding a new value to the array
+            class_12_marks[0] = 94;  // changing the value of an array
+            console.log(class_12_marks);
+            console.log(typeof class_12_marks);
+
+
+            // Quiz: 
+             let mixed = [420,"apple",null,true,undefined];
+             let quiz = document.getElementById("quiz");
+                for(let i=0; i<mixed.length; i++){
+                    // console.log(mixed[i]);
+                    // quiz.innerHTML += mixed[i];
+                    quiz.innerHTML += `<p>${i+1}st value is ${mixed[i]}</p>`;
+                }
+            
+    </script>
+</body>
+</html>

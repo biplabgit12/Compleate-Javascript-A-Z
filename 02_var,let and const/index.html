@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var,let and const</title>
+</head>
+
+<body>
+    <p>The let keyword was introduced in ES6 (2015).</p>
+    <p>Variables defined with let cannot be Redeclared.</p>
+    <p>Variables defined with let must be Declared before use.</p>
+    <p>Variables defined with let have Block Scope.</p>
+
+    <p>Variables defined with const cannot be Redeclared.</p>
+    <p>Variables defined with const cannot be Reassigned.</p>
+    <p>Variables defined with const have Block Scope.</p>
+
+    <script>
+        // var a= 5;
+        let a = 5;
+        var b = 10;
+        var c = 15;
+
+        {
+            let a = 'biplab';
+            console.log(a);
+        }
+
+        console.log(a);
+
+
+        // Always declare a variable with const when you know that the value should not be changed.
+        const Coder = "biplab mondal";
+ 
+        // Coder = "biplab mondal";  // Through error because Assignment to constant variable.
+        // const Coder = 5;  //Identifier 'Coder' has already been declared
+
+        console.log(Coder);
+
+    </script>
+
+
+</body>
+
+</html>

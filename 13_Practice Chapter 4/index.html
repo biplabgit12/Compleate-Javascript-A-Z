@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript practice set-4</title>
+</head>
+
+<body>
+  <h2>Javascript practice set-4</h2>
+
+
+  <script>
+    // print("Javascript");  
+
+    // Q1: 
+    console.log("har\"".length);
+
+
+    //   Q2: 
+    // includes()
+    /* let inc = "Hello world, welcome to universe";
+        console.log(inc.includes("welcome"));
+    */
+
+    let animal = "Fox";
+    let inc = (animal.includes("Fox")) ? "Right" : "False";
+    console.log("Animal name is " + inc);
+
+
+    //startsWith()
+    //Syntax:
+    //  start.startsWith(searchString, position);  
+    let start = "It is good day";
+    console.log(start.startsWith("It"));
+    console.log(start.startsWith("good", 6));
+
+
+    // endsWith()
+    //Syntax:
+    //  end.endsWith(searchString, position); 
+    let end = "It is good day";
+    console.log(end.endsWith("day"));
+    console.log(end.endsWith("good", 10));
+
+
+    // Q3: 
+    let low = "LOWERCASE";
+    console.log(low);
+    console.log(low.toLowerCase());
+
+
+    // Q4: 
+    let amount = "Please give Rs 1000";
+    //  console.log(amount.slice(15));
+    console.log(amount.slice("Please give Rs ".length));
+
+
+    // Q5: 
+    let change = "String Character";
+    change[1] = "i";
+    console.log(change);   // "change" variable's storing value is not changed. because string is immutable
+
+  </script>
+</body>
+
+</html>

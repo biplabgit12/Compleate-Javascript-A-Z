@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops with Array</title>
+</head>
+<body>
+    <h2>loops with array in javascript</h2>
+
+
+    <script>
+        // for
+        let num = [2,5,21,8,91,16];
+       /*  for(let i=0; i<num.length; i++){
+            console.log("array value is " + num[i]);
+         } 
+       */
+
+
+       //forEach()
+     /*  num.forEach(element =>{
+          console.log(element);
+       })
+       
+       num.forEach((index,element,arr) =>{
+           console.log(element,arr,index);
+        })
+     */
+
+
+     //Array.from
+  /*  let name = "Biplab";
+    console.log(name, typeof name);
+
+    let arr = Array.from(name);
+    console.log(arr, typeof arr);
+
+    arr.forEach((element)=>{
+        console.log("converting string to array element is " + element);
+    })
+  */  
+      
+
+    //for--of
+    /*  num = [2,5,21,8,91,16];
+       for (const item of num) {
+        console.log(item);
+        
+       }
+    */  
+
+    //for--in
+      num = [2,5,21,8,91,16];
+       for (const i in num) {
+        // console.log(i);
+        console.log(num[i]);
+        
+       }
+       
+    </script>
+</body>
+</html>
